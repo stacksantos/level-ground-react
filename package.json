@@ -21,6 +21,17 @@
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8",
     "vite": "^3.0.7"
-  }
+  },
+  "description": "I've decided to re-create the Level Ground layout using Vite, ReactJS, and Tailwind CSS.",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stacksantos/level-ground-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stacksantos/level-ground-react/issues"
+  },
+  "homepage": "https://github.com/stacksantos/level-ground-react#readme"
 }
-
