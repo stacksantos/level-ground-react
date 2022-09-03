@@ -1,5 +1,4 @@
 import React from 'react'
-import * as styles from './RectBtn.module.css'
 
 export const RectBtn = (props) => {
   return (
