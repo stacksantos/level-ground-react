@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { RoundedBtn } from '../Buttons/RoundedBtn/RoundedBtn';
 import { Logo } from './Logo/Logo';
 import { Nav } from './Nav/Nav';
-import { RiCloseCircleFill } from 'react-icons/Ri';
 import { CgMenuRound } from 'react-icons/Cg';
 
 export const Header = () => {
@@ -17,10 +16,10 @@ export const Header = () => {
 				/* -------------------------------------------------------------------------- */}
 				<section className='flex lg:hidden'>
 					<div className={isNavOpen ? 'showMenuNav' : 'hideMenuNav'}>
-						<RiCloseCircleFill
+						<span
 							onClick={() => setIsNavOpen(false)}
-							className='text-black mb-10 lg:hidden text-5xl hover:text-red-900 hover:animate-spin cursor-pointer'
-						/>
+							className='text-black mb-10 lg:hidden text-xl uppercase font-medium hover:text-red-900  cursor-pointer'
+						>Close menu</span>
 						<ul className='flex flex-col items-start'>
 							<li className='mb-10'>
 								<Nav />
