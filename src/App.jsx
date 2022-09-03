@@ -60,7 +60,10 @@ function App() {
 			/* -------------------------------------------------------------------------- */}
 			<div className='w-full bg-slate-200'>
 				<div className='flex flex-col items-center'>
-					<div className='w-2/3 h-64 mb-3 mt-14 rounded-lg' style={gymImg}></div>
+					<div
+						className='w-2/3 h-64 mb-3 mt-14 rounded-lg'
+						style={gymImg}
+					></div>
 					<div className='flex flex-wrap lg:flex-nowrap mt-10 mb-20 px-20 text-black'>
 						<div className='flex flex-col items-center lg:w-5/6'>
 							<h3 className='text-2xl font-medium uppercase mb-4 text-center'>
