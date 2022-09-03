@@ -38,7 +38,7 @@ function App() {
 					<h3 className='text-black text-5xl uppercase font-medium my-9'>
 						Why
 					</h3>
-					<p className='text-black mt-2 mb-20 w-5/6 text-center text-xl'>
+					<p className='text-black mt-2 mb-20 w-5/6 text-center text-xl px-20'>
 						Youth joining our organization are exposed to a variety of
 						challenges to enhance their adaptability in the world. We create an
 						environment in which each obstacle is specifically designed to level
@@ -66,7 +66,7 @@ function App() {
 							<h3 className='text-2xl font-medium uppercase mb-4 text-center'>
 								Visit the gym
 							</h3>
-							<p className='text-lg lg:w-5/6 text-center lg:text-left px-20'>
+							<p className='text-lg lg:w-5/6 text-center lg:text-left lg:px-20'>
 								Nostrud aute labore eiusmod sunt fugiat. Anim id cupidatat nulla
 								aliquip enim. Exercitation nulla consequat cillum irure.
 								Adipisicing dolore ullamco deserunt minim ex cillum minim ea.
