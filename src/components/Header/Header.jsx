@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { RoundedBtn } from '../Buttons/RoundedBtn/RoundedBtn';
 import { Logo } from './Logo/Logo';
 import { Nav } from './Nav/Nav';
-import { AiFillCloseCircle } from 'react-icons/Ai';
+import { IoCloseCircle } from 'react-icons/Io';
 import { CgMenuRound } from 'react-icons/Cg';
 
 export const Header = () => {
@@ -17,7 +17,7 @@ export const Header = () => {
 				/* -------------------------------------------------------------------------- */}
 				<section className='flex lg:hidden'>
 					<div className={isNavOpen ? 'showMenuNav' : 'hideMenuNav'}>
-						<AiFillCloseCircle
+						<IoCloseCircle
 							onClick={() => setIsNavOpen(false)}
 							className='text-black mb-10 lg:hidden text-5xl hover:text-red-900 hover:animate-spin cursor-pointer'
 						/>
