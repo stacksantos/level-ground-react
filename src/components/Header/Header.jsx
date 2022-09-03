@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { RoundedBtn } from '../Buttons/RoundedBtn/RoundedBtn';
 import { Logo } from './Logo/Logo';
 import { Nav } from './Nav/Nav';
-import { CgMenuRound } from 'react-icons/Cg';
 
 export const Header = () => {
 	const [isNavOpen, setIsNavOpen] = useState(false);
@@ -16,10 +15,15 @@ export const Header = () => {
 				/* -------------------------------------------------------------------------- */}
 				<section className='flex lg:hidden'>
 					<div className={isNavOpen ? 'showMenuNav' : 'hideMenuNav'}>
-						<span
-							onClick={() => setIsNavOpen(false)}
-							className='text-black mb-10 lg:hidden text-xl uppercase font-medium hover:text-red-900  cursor-pointer'
-						>Close menu</span>
+						<div className='lg:hidden cursor-pointer mb-10 hover:animate-pulse hover:text-red-900 border-2 border-black rounded-full'>
+							<span
+								onClick={() => setIsNavOpen(false)}
+								className='text-black  p-7  text-xl uppercase font-medium hover:text-red-900  cursor-pointer'
+							>
+								Close menu
+							</span>
+						</div>
+
 						<ul className='flex flex-col items-start'>
 							<li className='mb-10'>
 								<Nav />
@@ -43,10 +47,14 @@ export const Header = () => {
 					</div>
 					<div className='w-1/3 flex flex-col items-center'>
 						<Logo />
-						<CgMenuRound
-							className='text-6xl text-black mt-10 lg:hidden cursor-pointer hover:animate-pulse'
-							onClick={() => setIsNavOpen((prev) => !prev)}
-						/>
+						<div className='mt-10 lg:hidden cursor-pointer hover:animate-pulse hover:text-red-900 border-2 border-black rounded-full'>
+							<span
+								className='text-xl uppercase font-medium p-7 text-black '
+								onClick={() => setIsNavOpen((prev) => !prev)}
+							>
+								Menu
+							</span>
+						</div>
 					</div>
 					<div className='w-1/3 justify-end hidden lg:flex'>
 						<RoundedBtn
