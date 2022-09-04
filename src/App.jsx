@@ -20,7 +20,7 @@ function App() {
 			/*                                  SECTION 1                                 */
 			/* -------------------------------------------------------------------------- */}
 			<div className='container lg:my-32 my-10 flex flex-col items-center'>
-				<h2 className='uppercase text-6xl text-center'>
+				<h2 className='uppercase text-6xl text-center md:px-10 px-3'>
 					Where grit meets opportunity
 				</h2>
 				<p className='my-12 w-5/6 lg:w-2/3 text-2xl text-center'>
@@ -38,7 +38,7 @@ function App() {
 					<h3 className='text-black text-5xl uppercase font-medium my-9'>
 						Why
 					</h3>
-					<p className='text-black mt-2 mb-20 w-5/6 text-center text-xl'>
+					<p className='text-black mt-2 mb-20 w-5/6 md:w-2/3 lg:w-1/2 lg:text-2xl text-center text-xl'>
 						Youth joining our organization are exposed to a variety of
 						challenges to enhance their adaptability in the world. We create an
 						environment in which each obstacle is specifically designed to level
@@ -61,12 +61,12 @@ function App() {
 			<div className='w-full bg-slate-200'>
 				<div className='flex flex-col items-center'>
 					<div className='w-2/3 h-64 mb-3 mt-14 rounded-lg' style={gymImg}></div>
-					<div className='flex flex-wrap lg:flex-nowrap mt-10 mb-20 lg:px-32 text-black'>
-						<div className='flex flex-col items-center lg:w-5/6'>
-							<h3 className='text-2xl font-medium uppercase mb-4 text-center'>
+					<div className='flex flex-wrap md:flex-nowrap mt-10 mb-20 lg:px-32 text-black'>
+						<div className='flex flex-col items-center md:w-5/6'>
+							<h3 className='text-2xl md:text-3xl font-medium uppercase mb-4 text-center'>
 								Visit the gym
 							</h3>
-							<p className='text-lg lg:w-5/6 text-center lg:text-left px-20'>
+							<p className='text-lg md:text-xl md:w-5/6 text-center lg:text-left md:px-10 px-20'>
 								Nostrud aute labore eiusmod sunt fugiat. Anim id cupidatat nulla
 								aliquip enim. Exercitation nulla consequat cillum irure.
 								Adipisicing dolore ullamco deserunt minim ex cillum minim ea.
@@ -81,11 +81,11 @@ function App() {
 								</a>
 							</div>
 						</div>
-						<div className='flex flex-col items-center lg:w-5/6'>
-							<h3 className='text-2xl font-medium uppercase mb-4 text-center'>
+						<div className='flex flex-col items-center md:w-5/6'>
+							<h3 className='text-2xl md:text-3xl font-medium uppercase mb-4 text-center'>
 								Have us visit you
 							</h3>
-							<p className='text-lg lg:w-2/3 w-5/6 text-center lg:text-left'>
+							<p className='text-lg md:text-xl md:w-5/6 md:px-10 px-20 text-center lg:text-left'>
 								Nostrud aute labore eiusmod sunt fugiat. Anim id cupidatat nulla
 								aliquip enim. Exercitation nulla consequat cillum irure.
 								Adipisicing dolore ullamco deserunt minim ex cillum minim ea.
@@ -111,7 +111,7 @@ function App() {
 					<h3 className='text-black text-4xl uppercase text-center w-5/6 font-medium my-9'>
 						Volunteer with level ground
 					</h3>
-					<p className='text-black mt-2 mb-10 w-5/6 lg:w-2/3 text-center text-xl'>
+					<p className='text-black mt-2 mb-10 w-5/6 lg:w-2/3 text-center text-xl md:text-2xl'>
 						Quis veniam sint dolor sit aliqua laborum eu labore. Eiusmod
 						cupidatat occaecat adipisicing elit sint eu laborum pariatur ex
 						fugiat in reprehenderit non occaecat. Ipsum consectetur amet

@@ -41,7 +41,7 @@ export const Header = () => {
 				{/* -------------------------------------------------------------------------- */
 				/*                                  FULL MENU                                 */
 				/* -------------------------------------------------------------------------- */}
-				<div className='mt-4 justify-center items-center flex px-20'>
+				<div className='my-10 justify-center items-center flex px-20'>
 					<div className='w-1/3 hidden lg:flex'>
 						<Nav />
 					</div>
@@ -49,7 +49,7 @@ export const Header = () => {
 						<Logo />
 						<div className='mt-10 lg:hidden cursor-pointer hover:animate-pulse hover:text-red-900 border-2 border-black rounded-full'>
 							<span
-								className='text-xl uppercase font-medium p-7 text-black '
+								className='text-xl uppercase font-medium p-7 text-black hover:text-red-900'
 								onClick={() => setIsNavOpen((prev) => !prev)}
 							>
 								Menu
@@ -60,7 +60,7 @@ export const Header = () => {
 						<RoundedBtn
 							text='Donate'
 							url='#'
-							css='bg-white text-md w-min px-7 flex justify-center items-center rounded-lg uppercase font-medium hover:bg-black hover:text-white'
+							css='bg-white text-lg w-min px-10 py-6  flex justify-center items-center rounded-lg uppercase font-medium hover:bg-black hover:text-white'
 						/>
 					</div>
 				</div>
